@@ -1,12 +1,11 @@
-import System.IO;
-console.log("Enter your username");
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+alert("Enter your username");
 var userName = prompt();
-var path = Path.Combine(Directory.GetCurrentDirectory(), saves());
-path = Path.Combine(path, userName);
-if (File.Exists(path))
+if(fso.FileExists("C:\\Users\\Overlord Squidian\\Desktop\\index\\saves"))
 {
-  alert("It worked");
+	alert("It worked");
 }
-else{
-  alert("nope");
+else
+{
+  alert("It did not work")
 }
