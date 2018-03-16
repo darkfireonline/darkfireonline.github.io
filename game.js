@@ -1,6 +1,3 @@
-var choice = prompt("This is a test");
-alert(choice);
-console.log("test2");
 //var fso = new ActiveXObject("Scripting.FileSystemObject");
 //alert("Enter your username");
 //var userName = prompt();
