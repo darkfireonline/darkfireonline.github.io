@@ -12,11 +12,18 @@ function doesFileExist(urlToFile) {
         return true;
     }
 }
-if(fso.FileExists("https:\\www.google.com\\"))
-{
-	alert("It worked2");
-}
-else
-{
-  alert("It did not work2")
-}
+//if(fso.FileExists("has to be file not URL"))
+//{
+//	alert("It worked2");
+//}
+//else
+//{
+//  alert("It did not work2")
+//}
+var result = doesFileExist("https://github.com/darkfireonline/darkfireonline.github.io/tree/master/saves/"+userName);
+
+if (result == true) {
+    alert("This works");
+} else {
+    alert("This does not works");
+	}
