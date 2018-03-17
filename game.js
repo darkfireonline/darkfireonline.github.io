@@ -1,4 +1,4 @@
-//var fso = new ActiveXObject("Scripting.FileSystemObject");
+var fso = new ActiveXObject("Scripting.FileSystemObject");
 //alert("Enter your username");
 //var userName = prompt();
 if(fso.FileExists("https://www.google.com/"))
